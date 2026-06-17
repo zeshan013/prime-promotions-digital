@@ -87,6 +87,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "PrimePromotionsLLC" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "PrimePromotionsLLC — Digital Marketing, Shopify & WordPress Experts" },
+      { name: "twitter:title", content: "PrimePromotionsLLC — Digital Marketing, Shopify & WordPress Experts" },
+      { name: "description", content: "PrimePromotionsLLC is a portfolio website showcasing digital marketing, Shopify, WordPress, and WooCommerce services." },
+      { property: "og:description", content: "PrimePromotionsLLC is a portfolio website showcasing digital marketing, Shopify, WordPress, and WooCommerce services." },
+      { name: "twitter:description", content: "PrimePromotionsLLC is a portfolio website showcasing digital marketing, Shopify, WordPress, and WooCommerce services." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4087366a-a186-4231-9930-53016cc41084/id-preview-3f01ba49--8414db4f-ef2b-4589-8603-bc49f8644c4b.lovable.app-1781728392185.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4087366a-a186-4231-9930-53016cc41084/id-preview-3f01ba49--8414db4f-ef2b-4589-8603-bc49f8644c4b.lovable.app-1781728392185.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
